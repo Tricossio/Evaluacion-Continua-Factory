@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #ff3300;
+}
+
+.contenedor {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.inicio {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.inicio .logo {
+  width: 180px;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.4rem;
+  background-color: #b42b09;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e67300;
+}
+
+.promo {
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  padding: 1.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+}
+
+.menu {
+  margin-bottom: 3rem;
+}
+
+.menu h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.menu .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.menu .plato {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.menu .plato img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.reservas {
+  background-color: #ececec;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+}
+
+.reservas h2 {
+  margin-bottom: 1rem;
+}
+
+.reservas form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.reservas input,
+.reservas button {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.reservas button {
+  background-color: #920f0f;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.reservas button:hover {
+  background-color: #a72913;
+}
+
+.pedidos {
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+}
+
+.pedidos h2 {
+  margin-bottom: 1rem;
+}
+
+.pedidos ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+  margin-bottom: 1rem;
+}
+
+.pedidos button {
+  padding: 0.8rem 1.4rem;
+  background-color: #ff2600;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pedidos button:hover {
+  background-color: #b31500;
+}
+
+.eventos,
+.contacto {
+  margin-bottom: 3rem;
+}
+
+.eventos h2,
+.contacto h2 {
+  margin-bottom: 1rem;
+}
+
+.contacto a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contacto a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #2c2c2c;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.botones-navegacion {
+  margin-top: 1rem;
+}
+
+.botones-navegacion .btn {
+  margin: 0 0.5rem;
+}
